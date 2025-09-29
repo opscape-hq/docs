@@ -22,8 +22,10 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'opscape', // Usually your GitHub org/user name.
+  organizationName: 'opscape-hq', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
 
